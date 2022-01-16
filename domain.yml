@@ -1,0 +1,105 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - basic_info
+  - symptoms
+  - age_risk
+  - time
+  - corona_spread
+  - corona_community
+  - corona_infected_person
+  - corona_prevent
+  - Thanks
+
+# actions:
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_basic_info:
+  - text: "COVID-19 is the disease caused by a new coronavirus called SARS-CoV-2.\n\nWHO first learned of this new virus on 31 December 2019, following a report of a cluster of cases of ‘viral pneumonia’ in Wuhan, People’s Republic of China."
+
+  utter_symptoms:
+  - text: |
+     The most common symptoms of COVID-19 are:
+     1. Fever
+     2. Dry cough
+     3. Fatigue
+     Other symptoms that are less common and may affect some patients include:
+     1. Loss of taste or smell,
+     2. Nasal congestion,
+     3. Conjunctivitis (also known as red eyes)
+     4. Sore throat,
+     5. Headache,
+     6. Muscle or joint pain,
+     7. Different types of skin rash,
+     8. Nausea or vomiting,
+     9. Diarrhea,
+     10. Chills or dizziness.
+
+  utter_age_risk:
+  - text: "People aged 60 years and over, and those with underlying medical problems like high blood pressure, heart and lung problems, diabetes, obesity or cancer, are at higher risk of developing serious illness.\n\nHowever, anyone can get sick with COVID-19 and become seriously ill or die at any age."
+
+  utter_time:
+  - text: "The time from exposure to COVID-19 to the moment when symptoms begin is,\n\non average, 5-6 days and can range from 1-14 days.\n\nThis is why people who have been exposed to the virus are advised to remain \n\nat home and stay away from others, for 14 days, in order to prevent the spread of the virus, especially where testing is not easily available."
+
+  utter_corona_spread:
+  - text: "This virus was first detected in Wuhan City, Hubei Province, China. The\
+                 \ first infections were linked to a live animal market, but the virus is now\
+                 \ spreading from person-to-person. It’s important to note that person-to-person\
+                 \ spread can happen on a continuum. Some viruses are highly contagious (like\
+                 \ measles), while other viruses are less so. The virus that causes COVID-19\
+                 \ is spreading from person-to-person. Someone who is actively sick with COVID-19\
+                 \ can spread the illness to others. That is why we recommend that these patients\
+                 \ be isolated either in the hospital or at home (depending on how sick they\
+                 \ are) until they are better and no longer pose a risk of infecting others.\n\
+                 How long someone is actively sick can vary so the decision on when to release\
+                 \ someone from isolation is made on a case-by-case basis in consultation with\
+                 \ doctors, infection prevention and control experts, and public health officials\
+                 \ and involves considering specifics of each situation including disease severity,\
+                 \ illness signs and symptoms, and results of laboratory testing for that patient.\n\
+                 The virus that causes COVID-19 seems to be spreading easily and sustainably\
+                 \ in the community (“community spread”) in some affected geographic areas. Community\
+                 \ spread means people have been infected with the virus in an area, including\
+                 \ some who are not sure how or where they became infected."
+  
+  utter_corona_community:
+  - text: "Community spread means people have been infected with the virus in an area, including some who are not sure how or where they became infected. Each health department determines community spread differently based on local conditions. For information on community spread in your area, please visit your health department’s website.​"
+
+  utter_corona_infected_person:
+  - text: "Stay home for 14 days after your last contact with a person who has COVID-19.\nBe alert for symptoms. Watch for fever, cough, shortness of breath, or other symptoms of COVID-19.\nIf possible, stay away from others, especially people who are at higher risk for getting very sick from COVID-19."
+
+  utter_corona_prevent:
+  - text: "The best way to prevent illness is to avoid being exposed to the virus. CDC recommends everyday preventive actions to help prevent the spread of respiratory diseases.CDC recommends washing your hands often with soap and water for at least 20 seconds especially after you have been in a public place, or after blowing your nose, coughing, or sneezing. If soap and water are not available, CDC recommends using an alcohol-based hand sanitizer that contains at least 60 percent alcohol.\nWear masks in public settings when around people not living in your household and particularly where other social distancing measures are difficult to maintain, such as grocery stores, pharmacies, and gas stations. Masks may slow the spread of the virus and help people who may have the virus and do not know it from transmitting it to others.COVID-19 can be spread by people who do not have symptoms and do not know that they are infected. That’s why it’s important for everyone to practice social distancing (staying at least 6 feet away from other people) and wear masks in public settings. Masks provide an extra layer to help prevent the respiratory droplets from traveling in the air and onto other people."
+
+  utter_Thanks:
+  - text: "Your Welcome . Glad I could be of some help!\nJust type 'hey' or 'hi' again to redirect to the main phase of bot :-)"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,169 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: basic_info
+  examples: |
+    - about covid19
+    - About covid 19
+    - What is covid-19
+    - What is covid 19
+    - what is covid19
+    - what is covid 19
+    - what is corona virus
+    - About corona virus
+    - What is COVID-19
+
+- intent: symptoms
+  examples: |
+    - symptoms of covid 19
+    - syms
+    - symptoms of corona virus
+    - what are the symptoms of covid
+
+- intent: age_risk
+  examples: |
+    - who is at most risk
+    - what age peoples are more at risk
+    - age risk
+
+- intent: time
+  examples: |
+    - how long it takes to develope symptoms
+    - time to see effect of corona virus
+
+- intent: corona_spread
+  examples: |
+    - how does corona virus spread?
+    - how does this virus spread?
+    - how does corona spread?
+    - corona spread?
+    - covid spread.
+    - covid19 spread.
+    - how does covid19 spread?
+
+- intent: corona_community
+  examples: |
+    - what is community spread?
+    - how does community spread occurs?
+    - community spread
+
+- intent: corona_infected_person
+  examples: |
+    - If You or Someone You Know is Sick or Had Contact with Someone who Has COVID-19
+    - If You or Someone You Know is Sick or Had Contact with Someone who Has corona?
+    - what should i do if someone in my house gets infected by corona?
+    - what should i do if someone in my house gets infected by covid-19?
+    - someone gets covid-19 i know?
+    - my family member gets infected by corona?
+    - someone gets infected by corona i know?
+    - someone gets infected by corona i was in contact with?
+    - someone gets infected by covid i was in contact with?
+    - what to do if someone gets infected by covid i was in contact with?
+
+- intent: corona_prevent
+  examples: |
+    - how can i prevent covid19?
+    - how can i prevent corona virus?
+    - how can i prevent covid-19?
+    - prevent covid19?
+    - prevent corona
+    - how once can prevent himself/herself from getting infected from covid19?
+    - how once can prevent himself/herself from getting infected from corona?
+
+
+- intent: Thanks
+  examples: |
+    - Thanks
+    - Thank You
+    - thanks
+    - thanks a lot 
+    - thank you so much
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
