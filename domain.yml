@@ -16,10 +16,17 @@ intents:
   - corona_community
   - corona_infected_person
   - corona_prevent
+  - state_wise_doses
+  - corona_states_status
   - Thanks
 
-# actions:
+actions:
+  - action_vaccine_done
+  - actions_corona_state_status
 
+entities:
+  - state
+  - dose
 
 responses:
   utter_greet:

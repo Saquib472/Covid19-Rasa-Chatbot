@@ -63,6 +63,19 @@ stories:
   - intent: corona_prevent
   - action: utter_corona_prevent
 
+- story: covid cases vaccination
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: state_wise_doses
+  - action: action_vaccine_done
+
+- story: corona tracker path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: corona_states_status
+  - action: actions_corona_state_status
 
 - story: thanks path
   steps:

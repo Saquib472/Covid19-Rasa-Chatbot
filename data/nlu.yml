@@ -153,6 +153,30 @@ nlu:
     - how once can prevent himself/herself from getting infected from corona?
 
 
+- intent: state_wise_doses
+  examples: |
+    - vacination done in [India](dose)
+    - vaccine doses given in [Maharastra](dose)
+    - vaccinnations in [Karnatak](dose)
+    - [West Bengal](dose)
+    - [Uttar Pradesh](dose)
+    - [Delhi](dose)
+
+- intent: corona_states_status
+  examples: |
+    - corona cases in [India](state)
+    - cases of corona in [Maharastra](state)
+    - covid cases in [Karnatak](state)
+    - [West Bengal](state)
+    - [Uttar Pradesh](state)
+    - [Delhi](state)
+    - I live in [Rajasthan](state)
+    - [Sikkim](state)
+    - what is the corona status in [Tamil Nadu](state)
+    - [Uttarakhand](state)
+    - [Jharkhand](state)
+    - [Goa](state)
+
 - intent: Thanks
   examples: |
     - Thanks

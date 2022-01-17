@@ -1,0 +1,20 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-dose",
+      "2": "I-dose",
+      "3": "L-dose",
+      "4": "U-dose",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-dose": 1,
+      "I-dose": 2,
+      "L-dose": 3,
+      "U-dose": 4,
+      "O": 0
+    },
+    "num_tags": 5
+  }
+]
